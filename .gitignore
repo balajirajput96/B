@@ -1,32 +1,43 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Import the necessary libraries
+import os
+import django
 
-# Precompiled Headers
-*.gch
-*.pch
+# Set the project directory
+project_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Create a Django project
+django.setup(project_dir)
 
-# Fortran module files
-*.mod
-*.smod
+# Create a new app
+os.system('python manage.py startapp digital_marketing')
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Add the app to the INSTALLED_APPS setting
+with open(os.path.join(project_dir, 'settings.py'), 'a') as f:
+    f.write("    'digital_marketing',\n")
 
-# Executables
-*.exe
-*.out
-*.app
+# Create a model
+os.system('python manage.py makemigrations digital_marketing')
+os.system('python manage.py migrate')
+
+# Create a view
+with open(os.path.join(project_dir, 'digital_marketing/views.py'), 'w') as f:
+    f.write("""
+from django.shortcuts import render
+
+def home(request):
+    return render(request, 'digital_marketing/home.html')
+""")
+
+# Create a template
+with open(os.path.join(project_dir, 'digital_marketing/templates/digital_marketing/home.html'), 'w') as f:
+    f.write("""
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Welcome to the Digital Marketing website!</h1>
+{% endblock %}
+""")
+
+# Start the server
+os.system('python manage.py runserver') 
