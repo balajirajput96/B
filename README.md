@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+j<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,11 +34,3 @@
     <footer>
         <p>&copy; 2023 डिजिटल मार्केटिंग. सर्वाधिकार सुरक्षित।</p>
     </footer>
-</body>
-</html>
-body { font-family: Arial, sans-serif; line-height: 1.6; }
-header, main, footer { padding: 20px; }
-h1, h2 { color: #333; }
-nav ul { list-style: none; }
-nav ul li { display: inline; margin-right: 10px; }
-a { text-decoration: none; color: #007bff; }
