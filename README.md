@@ -26,9 +26,9 @@
             <h2>हमारे बारे में</h2>
             <p>हम एक अग्रणी डिजिटल मार्केटिंग एजेंसी हैं।</p>
         </section>
-        <section id="contact">
+        <section id="contact">8780861044
             <h2>संपर्क करें</h2>
-            <p>ईमेल: info@yourdomain.com</p>
+            <p>ईमेल: balajirajput966@gmail.com</p>
         </section>
     </main>
     <footer>
