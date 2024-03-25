@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>डिजिटल मार्केटिंग सेवाएं</h1>
+        <h1>Balaji Digital marketing services </h1>
         <nav>
             <ul>
                 <li><a href="#services">हमारी सेवाएं</a></li>
@@ -32,5 +32,5 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 डिजिटल मार्केटिंग. सर्वाधिकार सुरक्षित।</p>
+        <p>&copy; 2023 डिजिटल मार्केटिंग सर्वाधिकार सुरक्षित।</p>
     </footer>
