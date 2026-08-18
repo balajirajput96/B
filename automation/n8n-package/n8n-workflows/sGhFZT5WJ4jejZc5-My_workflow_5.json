@@ -1,0 +1,48 @@
+[
+  {
+    "name": "[Draft] My workflow 5",
+    "nodes": [
+      {
+        "parameters": {},
+        "type": "n8n-nodes-base.manualTrigger",
+        "typeVersion": 1,
+        "position": [
+          0,
+          0
+        ],
+        "id": "d5276489-7bd4-404b-a8e2-2c64fcd38c9e",
+        "name": "“Jobs Dry Run”"
+      },
+      {
+        "parameters": {
+          "jsCode": "return [\n  { json: { title: \"QC Analyst\", company: \"BioLab\", location: \"Vadodara\", link: \"https://example.com/qc1\" } },\n  { json: { title: \"Bioinformatics Intern\", company: \"GenData\", location: \"Ahmedabad\", link: \"https://example.com/bio1\" } },\n  { json: { title: \"Lab Technician\", company: \"MedLabs\", location: \"Baroda\", link: \"https://example.com/lab1\" } }\n];"
+        },
+        "type": "n8n-nodes-base.code",
+        "typeVersion": 2,
+        "position": [
+          224,
+          128
+        ],
+        "id": "e5a27d1d-ec68-4772-8f89-f51f93fe1e02",
+        "name": "Code"
+      }
+    ],
+    "connections": {
+      "“Jobs Dry Run”": {
+        "main": [
+          []
+        ]
+      }
+    },
+    "settings": {
+      "executionOrder": "v1"
+    },
+    "staticData": null,
+    "pinData": {},
+    "triggerCount": 0,
+    "meta": {
+      "templateCredsSetupCompleted": false
+    },
+    "active": false
+  }
+]
