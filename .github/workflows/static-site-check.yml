@@ -1,0 +1,31 @@
+name: Static site check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Validate required site files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s index.html
+          test -s styles.css
+          grep -q '<html lang="en">' index.html
+          grep -q 'href="styles.css"' index.html
+          grep -q 'id="services"' index.html
+          grep -q 'id="about"' index.html
+          grep -q 'id="contact"' index.html
+          grep -q '.container' styles.css
+          grep -q '@media' styles.css
+          echo "Static site validation passed."
