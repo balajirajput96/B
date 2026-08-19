@@ -6,6 +6,7 @@
   <meta name="description" content="Balaji Digital Marketing provides digital marketing, SEO, and social media services.">
   <title>Balaji Digital Marketing</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -73,7 +74,7 @@
           <h2>Have a project in mind?</h2>
           <p>Share a few details about your goals. This static page does not submit information to a server yet, so connect a trusted backend before accepting real enquiries.</p>
         </div>
-        <form class="contact-form" action="#contact" method="get">
+        <form id="contact-form" class="contact-form">
           <label for="name">Name</label>
           <input id="name" name="name" type="text" autocomplete="name" required>
           <label for="email">Email</label>
@@ -81,6 +82,7 @@
           <label for="message">Message</label>
           <textarea id="message" name="message" rows="5" required></textarea>
           <button class="button" type="submit">Preview enquiry</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
         </form>
       </div>
     </section>
