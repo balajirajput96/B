@@ -10,4 +10,4 @@ The main static-site workflow checks pass locally. All 14 workflow exports liste
 
 ## Remote-operation boundary
 
-This local integration branch has not been pushed, rebased remotely, merged, or used to change repository settings. Before any remote mutation, review the diff, choose the target branch and merge strategy, and explicitly approve the push/PR operation. Never commit API keys, OAuth tokens, publish profiles, or n8n credential exports.
+This package is stored on the repository's current `main` branch, but it remains documentation and inactive workflow-draft material only. It has not been used to authenticate third-party accounts, activate n8n workflows, change repository settings, publish content, or perform external business actions. Before any future remote mutation, review the exact workflow, choose the target branch and merge strategy, validate the relevant credential and output on the durable host, and obtain the required approval for the external action. Never commit API keys, OAuth tokens, publish profiles, or n8n credential exports.
