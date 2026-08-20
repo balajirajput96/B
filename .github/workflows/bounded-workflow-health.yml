@@ -1,0 +1,26 @@
+name: Bounded repository workflow health
+
+on:
+  schedule:
+    # GitHub schedules use five-field cron. The offset avoids the busiest top-of-hour window.
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  inspect:
+    # Scheduled runs stop doing work after 2,400 executions. Manual dispatch remains available.
+    if: github.event_name == 'workflow_dispatch' || github.run_number <= 2400
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Summarize recent workflow states
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 automation/maintenance/check_workflow_health.py
