@@ -91,5 +91,6 @@
     "mission-evidence/cycle-recovery/failure-32259221962/",
     "mission-evidence/cycle-recovery/pr119/",
     "mission-evidence/cycle-recovery/validation/"
-  ]
+  ],
+  "evidence_manifest": "evidence/cycle-17.json"
 }

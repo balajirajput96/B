@@ -1,0 +1,89 @@
+{
+  "cycle": 17,
+  "generated_at": "2026-08-21T14:39:43Z",
+  "maintenance_state_commit": "662248e9b0dcd3d19c369e8eeb48754df7d050c2",
+  "default_branch_commit": "15ad4cdaef59f06478d59a3f3ef8bae7e673da67",
+  "artifacts": [
+    {
+      "path": "mission-evidence/cycle-recovery/latest.json\n",
+      "sha256": "22ee7d7d25db84dc3980c75726007c54acd28263b7f0fa96d3385fcdd8893fe8"
+    },
+    {
+      "path": "mission-evidence/cycle-recovery/records_16.json\n",
+      "sha256": "c9e3fdbed12b692e278206ef5196bc7d746602ec557202000f59af655834c091"
+    },
+    {
+      "path": "mission-evidence/cycle-recovery/current-github-snapshot/default-branches.tsv\n",
+      "sha256": "4a61ae376e257ee00f8bc1798c41f3032f2260d85196658c0da80c60fd9554a5"
+    },
+    {
+      "path": "mission-evidence/cycle-recovery/current-github-snapshot/owner-open-prs.compact.ndjson\n",
+      "sha256": "eaa89f9b158fd69e26cb86a72552032b777a941162fa0ec86f3f7feaf915f944"
+    },
+    {
+      "path": "mission-evidence/cycle-recovery/active-repos/B-runs.json\n",
+      "sha256": "e033af2d93f355730cd964f925cb7d5943d8717ac92076f54007a2a316abf464"
+    },
+    {
+      "path": "mission-evidence/cycle-recovery/active-repos/vscode-live-server-plus-plus-runs.json\n",
+      "sha256": "5e7efd2e9f1785169f282b7af48bc15693dab418d591bf8793deb6689ecd7f16"
+    },
+    {
+      "path": "mission-evidence/cycle-recovery/active-repos/vscode-live-server-plus-plus-pulls.json\n",
+      "sha256": "9d6da92d6dbbd3cdd60d4c6520c3183772902422f2a266658ebd5fecf5279b86"
+    },
+    {
+      "path": "mission-evidence/cycle-recovery/failure-32259221962/assessment.txt\n",
+      "sha256": "3094f6a66ada7ee3cc06e312614dc9c0a06ed7d3a4347e5cb29eccfca2656252"
+    },
+    {
+      "path": "mission-evidence/cycle-recovery/failure-32259221962/pr47-current-checks.txt\n",
+      "sha256": "57f65e1dead86680644d58acc883c47d36fce2cf93f0f7dfd40c30cea0d07d7b"
+    },
+    {
+      "path": "mission-evidence/cycle-recovery/pr119/checks.txt\n",
+      "sha256": "9b5d3dd5e4700271c53f492f4d2c3aee0b86121f89e50dfda8a73d0793664217"
+    },
+    {
+      "path": "mission-evidence/cycle-recovery/validation/B-validation.txt\n",
+      "sha256": "1a9926a0bb2625ea64f67a732fcd7800597be6f8673e8f8d6a5e7e71b0db4175"
+    },
+    {
+      "path": "mission-evidence/cycle-recovery/validation/B-corrected-validation.txt\n",
+      "sha256": "7c116de3e7c0a2132129b23ee2cc9a4dfe59fd6cf51fbe4cd2d8b7b3fb280111"
+    },
+    {
+      "path": "mission-evidence/cycle-recovery/validation/pr119-local-validation.txt\n",
+      "sha256": "bc8158bf0e0eb0546daae2fa545304e0a9a81c7471195cf91d1efa127c151e74"
+    }
+  ],
+  "terminal_transcripts": [
+    "2026-08-21_14-31-13_772694_748.txt",
+    "2026-08-21_14-32-14_35617_748.txt",
+    "2026-08-21_14-32-38_885266_748.txt",
+    "2026-08-21_14-32-48_874329_748.txt",
+    "2026-08-21_14-32-55_590517_748.txt",
+    "2026-08-21_14-34-49_402619_748.txt",
+    "2026-08-21_14-35-10_47072_748.txt",
+    "2026-08-21_14-36-05_799860_748.txt",
+    "2026-08-21_14-36-34_931767_748.txt",
+    "2026-08-21_14-37-36_401882_748.txt",
+    "2026-08-21_14-37-47_9852_748.txt",
+    "2026-08-21_14-38-19_313031_748.txt",
+    "2026-08-21_14-39-09_263447_748.txt"
+  ],
+  "verified_urls": [
+    "https://github.com/balajirajput96/B/tree/maintenance-state",
+    "https://github.com/balajirajput96/B/blob/maintenance-state/records/17.json",
+    "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/119",
+    "https://github.com/balajirajput96/vscode-live-server-plus-plus/pull/47",
+    "https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32259221962"
+  ],
+  "blockers": [
+    "Historical run 32259221962 log unavailable; current PR47 check passed, so no source repair was authorized.",
+    "N8N webhook response and secret value are unavailable to this token.",
+    "Branch protection endpoint did not provide a protection payload; no protection change was attempted."
+  ],
+  "next_cycle": 18,
+  "terminal": false
+}
