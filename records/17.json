@@ -1,96 +1,10 @@
 {
-  "cycle": 17,
-  "continuation_from": 16,
-  "generated_at": "2026-08-21T14:39:06Z",
-  "terminal": false,
-  "next_cycle": 18,
-  "state_loaded": true,
-  "source_repository": "balajirajput96/B",
-  "source_default_branch": "main",
-  "source_sha": "15ad4cdaef59f06478d59a3f3ef8bae7e673da67",
-  "scope": {
-    "owner_repository_inventory_count": 251,
-    "owner_open_pr_search_total": 301,
-    "owner_open_pr_search_snapshot_limit": 100,
-    "active_repositories": [
-      {
-        "repository": "balajirajput96/B",
-        "default_branch": "main",
-        "open_pr_count": 0
-      },
-      {
-        "repository": "balajirajput96/vscode-live-server-plus-plus",
-        "default_branch": "master",
-        "open_pr_count": 14
-      }
-    ]
+  "active_run_count": 0,
+  "active_runs": [],
+  "conclusions": {
+    "success": 14
   },
-  "unfinished_work": {
-    "maintenance_state_latest_before_cycle": "records/16.json",
-    "prior_record": {
-      "active_run_count": 0,
-      "non_passing_run_count": 0,
-      "conclusions": {
-        "success": 15
-      }
-    },
-    "current_default_branch_failures": [],
-    "owner_controlled_prs": [
-      {
-        "repository": "balajirajput96/vscode-live-server-plus-plus",
-        "number": 119,
-        "state": "open",
-        "mergeable": true,
-        "mergeable_state": "blocked",
-        "checks": "build-and-test pass",
-        "branch": "agent/stabilize-extension-ci"
-      }
-    ]
-  },
-  "diagnostics": {
-    "B": {
-      "health_check": "pass: 15 relevant, 0 active, 0 non-passing",
-      "maintenance_tests": "pass",
-      "workflow_validator": "pass: 14 workflows, 0 errors",
-      "json_validation": "pass"
-    },
-    "vscode_live_server_plus_plus": {
-      "default_branch_runs": "29 success, 1 historical failure in sampled 30",
-      "current_non_passing_default_branch_runs": [],
-      "owner_pr_119_local_validation": "npm ci, compile, and test pass; changed shell scripts bash -n pass"
-    },
-    "historical_failure": {
-      "run_id": 32259221962,
-      "pull_request": 47,
-      "workflow": ".github/workflows/notify.yml",
-      "conclusion": "failure",
-      "log_status": "not found",
-      "current_pr_head_check": "ping pass",
-      "disposition": "not reproducibly actionable"
-    }
-  },
-  "repairs_applied": [],
-  "protections_and_authentication": {
-    "default_branches_modified": false,
-    "branch_protection_modified": false,
-    "authentication_modified": false,
-    "required_reviews_bypassed": false,
-    "billing_or_runner_limits_bypassed": false,
-    "semantic_conflict_safety_preserved": true
-  },
-  "blockers": [
-    "Historical PR #47 failure log is unavailable, so no source-level repair is evidence-backed.",
-    "The notify workflow depends on an external N8N_WEBHOOK_URL secret and endpoint; secret values and endpoint responses are not observable from repository metadata.",
-    "Repository action-secret metadata request returned HTTP 403 for the current token; no secret was changed."
-  ],
-  "evidence": [
-    "mission-evidence/cycle-recovery/latest.json",
-    "mission-evidence/cycle-recovery/records_16.json",
-    "mission-evidence/cycle-recovery/current-github-snapshot/",
-    "mission-evidence/cycle-recovery/active-repos/",
-    "mission-evidence/cycle-recovery/failure-32259221962/",
-    "mission-evidence/cycle-recovery/pr119/",
-    "mission-evidence/cycle-recovery/validation/"
-  ],
-  "evidence_manifest": "evidence/cycle-17.json"
+  "non_passing_run_count": 0,
+  "non_passing_runs": [],
+  "recent_run_count": 14
 }
