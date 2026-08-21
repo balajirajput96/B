@@ -1,7 +1,7 @@
 {
-  "cycle": 20,
-  "record": "records/20.json",
+  "cycle": 21,
+  "record": "records/21.json",
   "source_sha": "15ad4cdaef59f06478d59a3f3ef8bae7e673da67",
-  "workflow_run_id": "32509693898",
-  "generated_at": "2026-08-21T17:44:17Z"
+  "workflow_run_id": "32515823795",
+  "generated_at": "2026-08-21T18:58:24Z"
 }
