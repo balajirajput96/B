@@ -6,9 +6,15 @@ on:
     - cron: "17 * * * *"
   workflow_dispatch:
 
+# State records are written only to the dedicated maintenance-state branch.
 permissions:
   actions: read
-  contents: read
+  contents: write
+
+# Avoid concurrent state-branch updates from overlapping scheduled/manual runs.
+concurrency:
+  group: bounded-workflow-health-state
+  cancel-in-progress: false
 
 jobs:
   inspect:
@@ -23,4 +29,41 @@ jobs:
       - name: Summarize recent workflow states
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python3 automation/maintenance/check_workflow_health.py
+        run: python3 automation/maintenance/check_workflow_health.py > "$RUNNER_TEMP/maintenance-cycle.json"
+
+      - name: Validate machine-readable cycle evidence
+        run: |
+          set -euo pipefail
+          python3 -m json.tool "$RUNNER_TEMP/maintenance-cycle.json" >/dev/null
+          test -s "$RUNNER_TEMP/maintenance-cycle.json"
+
+      - name: Publish scheduled cycle evidence
+        if: github.event_name == 'schedule'
+        env:
+          STATE_BRANCH: maintenance-state
+        run: |
+          set -euo pipefail
+          state_dir="$RUNNER_TEMP/maintenance-state"
+          git fetch origin "$STATE_BRANCH" || true
+          if git show-ref --verify --quiet "refs/remotes/origin/$STATE_BRANCH"; then
+            git worktree add --detach "$state_dir" "origin/$STATE_BRANCH"
+            git -C "$state_dir" checkout -B "$STATE_BRANCH" "origin/$STATE_BRANCH"
+          else
+            git worktree add -b "$STATE_BRANCH" "$state_dir"
+          fi
+          mkdir -p "$state_dir/records"
+          cp "$RUNNER_TEMP/maintenance-cycle.json" "$state_dir/records/${GITHUB_RUN_NUMBER}.json"
+          cat > "$state_dir/latest.json" <<EOF
+          {
+            "cycle": ${GITHUB_RUN_NUMBER},
+            "record": "records/${GITHUB_RUN_NUMBER}.json",
+            "source_sha": "${GITHUB_SHA}",
+            "workflow_run_id": "${GITHUB_RUN_ID}",
+            "generated_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          }
+          EOF
+          git -C "$state_dir" config user.name "github-actions[bot]"
+          git -C "$state_dir" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$state_dir" add records/${GITHUB_RUN_NUMBER}.json latest.json
+          git -C "$state_dir" commit -m "chore: record maintenance cycle ${GITHUB_RUN_NUMBER}"
+          git -C "$state_dir" push origin "HEAD:$STATE_BRANCH"
