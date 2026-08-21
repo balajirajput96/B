@@ -5,6 +5,12 @@ on:
     # GitHub schedules use five-field cron. The offset avoids the busiest top-of-hour window.
     - cron: "17 * * * *"
   workflow_dispatch:
+    inputs:
+      publish_evidence:
+        description: "Publish a maintenance-state record for an explicit verification run"
+        required: false
+        default: false
+        type: boolean
 
 # State records are written only to the dedicated maintenance-state branch.
 permissions:
@@ -38,7 +44,7 @@ jobs:
           test -s "$RUNNER_TEMP/maintenance-cycle.json"
 
       - name: Publish scheduled cycle evidence
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || inputs.publish_evidence == true
         env:
           STATE_BRANCH: maintenance-state
         run: |
