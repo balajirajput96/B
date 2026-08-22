@@ -1,0 +1,21 @@
+[1;37mdiff --git a/codex-rs/core/src/session/tests/guardian_tests.rs b/codex-rs/core/src/session/tests/guardian_tests.rs[m
+[1;37mindex 67133adb8681..ae621e3fb8a4 100644[m
+[1;37m--- a/codex-rs/core/src/session/tests/guardian_tests.rs[m
+[1;37m+++ b/codex-rs/core/src/session/tests/guardian_tests.rs[m
+@@ -506,6 +506,7 @@ async fn strict_auto_review_turn_grant_forces_guardian_for_shell_command_policy_
+     );
+     #[allow(deprecated)]
+     let workdir = Some(turn_context.cwd.to_string_lossy().to_string());
+[32m+    let expiration_ms: u64 = if cfg!(windows) { 2_500 } else { 1_000 };[m
+     let step_context = StepContext::for_test(Arc::clone(&turn_context));
+     let resp = handler
+         .handle(ToolInvocation {
+@@ -522,7 +523,7 @@ async fn strict_auto_review_turn_grant_forces_guardian_for_shell_command_policy_
+                     "command": "echo hi",
+                     "login": false,
+                     "workdir": workdir,
+[31m-                    "timeout_ms": 1_000_u64,[m
+[32m+                    "timeout_ms": expiration_ms,[m
+                 })
+                 .to_string(),
+             },

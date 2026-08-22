@@ -1,0 +1,25 @@
+### /home/ubuntu/mission-cycle-2400/evidence/final-refresh/codex-failures/pr50-run32537590528-job96941293047-annotations.json
+.github	failure		Process completed with exit code 143.
+.github	warning		just@1.51.0 for 'aarch64_linux' is not supported; fallback to cargo-binstall
+### /home/ubuntu/mission-cycle-2400/evidence/final-refresh/codex-failures/pr50-run32537590528-job96942889943-annotations.json
+.github	failure		Process completed with exit code 1.
+### /home/ubuntu/mission-cycle-2400/evidence/final-refresh/codex-failures/pr50-run32537590528-job96948035798-annotations.json
+.github	warning		No files were found with the provided path: D:/cargo-target/nextest/default/junit.xml. No artifacts will be uploaded.
+.github	failure		Process completed with exit code 100.
+.github	warning		just@1.51.0 for 'x86_64_windows' is not supported; fallback to cargo-binstall
+### /home/ubuntu/mission-cycle-2400/evidence/final-refresh/codex-failures/pr50-run32537590528-job96948035824-annotations.json
+.github	warning		No files were found with the provided path: D:/cargo-target/nextest/default/junit.xml. No artifacts will be uploaded.
+.github	failure		Process completed with exit code 100.
+.github	warning		just@1.51.0 for 'x86_64_windows' is not supported; fallback to cargo-binstall
+### /home/ubuntu/mission-cycle-2400/evidence/final-refresh/codex-failures/pr50-run32537590528-job96948035874-annotations.json
+.github	warning		No files were found with the provided path: D:/cargo-target/nextest/default/junit.xml. No artifacts will be uploaded.
+.github	failure		Process completed with exit code 100.
+.github	warning		just@1.51.0 for 'x86_64_windows' is not supported; fallback to cargo-binstall
+### /home/ubuntu/mission-cycle-2400/evidence/final-refresh/codex-failures/pr50-run32537590528-job96948035944-annotations.json
+.github	warning		No files were found with the provided path: D:/cargo-target/nextest/default/junit.xml. No artifacts will be uploaded.
+.github	failure		Process completed with exit code 100.
+.github	warning		just@1.51.0 for 'x86_64_windows' is not supported; fallback to cargo-binstall
+### /home/ubuntu/mission-cycle-2400/evidence/final-refresh/codex-failures/pr50-run32537590528-job96951191102-annotations.json
+.github	failure		Process completed with exit code 1.
+### /home/ubuntu/mission-cycle-2400/evidence/final-refresh/codex-failures/pr50-run32537590528-job96951573785-annotations.json
+.github	failure		Process completed with exit code 1.
