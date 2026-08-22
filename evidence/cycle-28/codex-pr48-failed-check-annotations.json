@@ -1,0 +1,38 @@
+[
+  {
+    "path": ".github",
+    "blob_href": "https://github.com/balajirajput96/codex/blob/1f1367fae740429b155f49c9fd81f2720f8c359a/.github",
+    "start_line": 13598,
+    "start_column": null,
+    "end_line": 13598,
+    "end_column": null,
+    "annotation_level": "failure",
+    "title": "",
+    "message": "Process completed with exit code 3.",
+    "raw_details": ""
+  },
+  {
+    "path": ".github",
+    "blob_href": "https://github.com/balajirajput96/codex/blob/1f1367fae740429b155f49c9fd81f2720f8c359a/.github",
+    "start_line": 13311,
+    "start_column": null,
+    "end_line": 13311,
+    "end_column": null,
+    "annotation_level": "failure",
+    "title": "Bazel failed action diagnostics",
+    "message": "FAILED: //codex-rs/core:core-all-test (Summary)",
+    "raw_details": ""
+  },
+  {
+    "path": ".github",
+    "blob_href": "https://github.com/balajirajput96/codex/blob/1f1367fae740429b155f49c9fd81f2720f8c359a/.github",
+    "start_line": 244,
+    "start_column": null,
+    "end_line": 244,
+    "end_column": null,
+    "annotation_level": "warning",
+    "title": "",
+    "message": "just@1.51.0 for 'aarch64_macos' is not supported; fallback to cargo-binstall",
+    "raw_details": ""
+  }
+]

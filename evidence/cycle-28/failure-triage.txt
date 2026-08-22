@@ -1,0 +1,70 @@
+== branch metadata ==
+{
+  "name": "main",
+  "protected": true,
+  "commit": "15ad4cdaef59f06478d59a3f3ef8bae7e673da67",
+  "commit_url": "https://api.github.com/repos/balajirajput96/B/commits/15ad4cdaef59f06478d59a3f3ef8bae7e673da67"
+}
+{
+  "name": "master",
+  "protected": true,
+  "commit": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+  "commit_url": "https://api.github.com/repos/balajirajput96/vscode-live-server-plus-plus/commits/97628eeb70e45beb56f7ba5245e48a1f08518b25"
+}
+== B run conclusion counts ==
+[
+  {
+    "state": "cancelled",
+    "count": 1
+  },
+  {
+    "state": "success",
+    "count": 29
+  }
+]
+== vscode run conclusion counts ==
+[
+  {
+    "state": "failure",
+    "count": 1
+  },
+  {
+    "state": "success",
+    "count": 29
+  }
+]
+== non-success current runs ==
+32524754353	Bounded repository workflow health	completed	cancelled	main	schedule	https://github.com/balajirajput96/B/actions/runs/32524754353
+32259221962	.github/workflows/notify.yml	completed	failure	copilot/fix-f8753240-e37b-4706-abb9-8e53c3b787e0	push	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32259221962
+== workflow definitions ==
+336961852	Automation package check	.github/workflows/automation-package-check.yml	active	https://github.com/balajirajput96/B/blob/main/.github/workflows/automation-package-check.yml
+338940697	Bounded repository workflow health	.github/workflows/bounded-workflow-health.yml	active	https://github.com/balajirajput96/B/blob/main/.github/workflows/bounded-workflow-health.yml
+336671842	Static site check	.github/workflows/static-site-check.yml	active	https://github.com/balajirajput96/B/blob/main/.github/workflows/static-site-check.yml
+179416320	Copilot	dynamic/copilot-swe-agent/copilot	active	https://github.com/balajirajput96/B/actions/workflows/copilot-swe-agent/copilot
+183082023	.github/workflows/automation-workflow.yml	.github/workflows/automation-workflow.yml	active	https://github.com/balajirajput96/vscode-live-server-plus-plus/blob/master/.github/workflows/automation-workflow.yml
+180221884	Deploy Node.js project to Azure Function App	.github/workflows/azure-functions-app-nodejs.yml	active	https://github.com/balajirajput96/vscode-live-server-plus-plus/blob/master/.github/workflows/azure-functions-app-nodejs.yml
+183081928	Career Automation System CI/CD	.github/workflows/career-automation-ci.yml	active	https://github.com/balajirajput96/vscode-live-server-plus-plus/blob/master/.github/workflows/career-automation-ci.yml
+337631833	Extension CI	.github/workflows/extension-ci.yml	active	https://github.com/balajirajput96/vscode-live-server-plus-plus/blob/master/.github/workflows/extension-ci.yml
+194385087	Deploy to GitHub Pages	.github/workflows/github-pages.yml	active	https://github.com/balajirajput96/vscode-live-server-plus-plus/blob/master/.github/workflows/github-pages.yml
+185272635	Notify n8n on Push	.github/workflows/notify-n8n.yml	active	https://github.com/balajirajput96/vscode-live-server-plus-plus/blob/master/.github/workflows/notify-n8n.yml
+183082565	Notify n8n on push	.github/workflows/notify.yml	active	https://github.com/balajirajput96/vscode-live-server-plus-plus/blob/master/.github/workflows/notify.yml
+183082290	.github/workflows/unified-api-health-check.yml	.github/workflows/unified-api-health-check.yml	active	https://github.com/balajirajput96/vscode-live-server-plus-plus/blob/master/.github/workflows/unified-api-health-check.yml
+184641788	Codespaces Prebuilds	dynamic/codespaces/create_codespaces_prebuilds	active	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/workflows/codespaces/create_codespaces_prebuilds
+230318336	Copilot code review	dynamic/copilot-pull-request-reviewer/copilot-pull-request-reviewer	active	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer
+180186830	Copilot cloud agent	dynamic/copilot-swe-agent/copilot	active	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/workflows/copilot-swe-agent/copilot
+185266978	Dependabot Updates	dynamic/dependabot/dependabot-updates	active	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/workflows/dependabot/dependabot-updates
+337194879	Dependency Graph	dynamic/dependabot/update-graph	active	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/workflows/dependabot/update-graph
+336013590	pages-build-deployment	dynamic/pages/pages-build-deployment	active	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/workflows/pages/pages-build-deployment
+== check conclusions ==
+[
+  {
+    "state": "success",
+    "count": 1
+  }
+]
+[
+  {
+    "state": "success",
+    "count": 1
+  }
+]

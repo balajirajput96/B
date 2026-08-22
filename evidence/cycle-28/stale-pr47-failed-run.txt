@@ -1,0 +1,18 @@
+== run metadata ==
+[1;37m{[m
+  [1;34m"conclusion"[m[1;37m:[m [32m"failure"[m[1;37m,[m
+  [1;34m"createdAt"[m[1;37m:[m [32m"2026-08-19T13:38:15Z"[m[1;37m,[m
+  [1;34m"databaseId"[m[1;37m:[m 32259221962[1;37m,[m
+  [1;34m"displayTitle"[m[1;37m:[m [32m"Harden connector health checks and setup guidance"[m[1;37m,[m
+  [1;34m"event"[m[1;37m:[m [32m"push"[m[1;37m,[m
+  [1;34m"headBranch"[m[1;37m:[m [32m"copilot/fix-f8753240-e37b-4706-abb9-8e53c3b787e0"[m[1;37m,[m
+  [1;34m"headSha"[m[1;37m:[m [32m"711518f2f8aa67f4daed342e6cdc1df3e62a02fb"[m[1;37m,[m
+  [1;34m"jobs"[m[1;37m:[m [1;37m[[m[1;37m][m[1;37m,[m
+  [1;34m"name"[m[1;37m:[m [32m".github/workflows/notify.yml"[m[1;37m,[m
+  [1;34m"status"[m[1;37m:[m [32m"completed"[m[1;37m,[m
+  [1;34m"updatedAt"[m[1;37m:[m [32m"2026-08-19T13:38:15Z"[m[1;37m,[m
+  [1;34m"url"[m[1;37m:[m [32m"https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32259221962"[m[1;37m,[m
+  [1;34m"workflowName"[m[1;37m:[m [32m"Notify n8n on push"[m
+[1;37m}[m
+== failed logs ==
+failed to get run log: log not found

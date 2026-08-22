@@ -1,7 +1,8 @@
 {
-  "cycle": 27,
-  "record": "records/27.json",
+  "cycle": 28,
+  "record": "records/28.json",
   "source_sha": "15ad4cdaef59f06478d59a3f3ef8bae7e673da67",
   "workflow_run_id": "32537530586",
-  "generated_at": "2026-08-21T23:37:32Z"
+  "generated_at": "2026-08-22T00:51:07Z",
+  "generator": "continuation diagnostics"
 }

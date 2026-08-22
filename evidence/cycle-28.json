@@ -1,0 +1,28 @@
+{
+  "cycle": 28,
+  "generated_at": "2026-08-22T00:51:32Z",
+  "source_sha": "15ad4cdaef59f06478d59a3f3ef8bae7e673da67",
+  "record": "records/28.json",
+  "terminal": false,
+  "next_cycle": 29,
+  "repair_actions": [],
+  "artifacts": [
+    {"path": "records/28.json", "sha256": "3150370a3646fc3c75205ae04a56b5446f5cb0e7c2b06a9431a57a9be24ab35d"},
+    {"path": "evidence/cycle-28/current-run-state.txt", "sha256": "df42dd205bab1350744639505dc682f73832c8ac6f3afdce0871fdcc98b75c12"},
+    {"path": "evidence/cycle-28/failure-triage.txt", "sha256": "03c96276896d818e3a548932df0a0ee4b6f1fc38eec6f6a1ccce0d6b6ebda3e0"},
+    {"path": "evidence/cycle-28/diagnostic-summary.txt", "sha256": "864ac0924e518f537478f461e52299dd0a92fb97a7aaa79fcd070bef6df4519c"},
+    {"path": "evidence/cycle-28/owner-pr-checks-summary.tsv", "sha256": "e433a435f8bcba6b007888d8e2c64a2eb3b3ad4210060bf6d574800252b063b3"},
+    {"path": "evidence/cycle-28/codex-queue-diagnosis.txt", "sha256": "0d57a226afc792fdcd64d73f34a2e5f3a40f890dbaa00f8d3779096a211aa885"},
+    {"path": "evidence/cycle-28/codex-pr48-failed-check-annotations.json", "sha256": "125aab0cb4e422a54ff7913c2827c740931a8014701ce4537a136439e9012823"},
+    {"path": "evidence/cycle-28/codex-pr48.diff", "sha256": "7605cdfd17ba925808b87122e95527a55969661031d78ebb25a7b4eb1b6ec32d"},
+    {"path": "evidence/cycle-28/stale-pr47-failed-run.txt", "sha256": "885d6ee25b09a992c8ae3ef4b7336d6eb71095bfe1a18aa23c41f410664257d4"}
+  ],
+  "blockers": [
+    "No local machine-readable state file was present; cycle 27 was recovered from balajirajput96/B maintenance-state latest.json at source commit 15ad4cdaef59f06478d59a3f3ef8bae7e673da67.",
+    "balajirajput96/codex PR48 run 32514118221 remains in flight: macOS x86 core-all-test job 96871744460 failed with exit code 3, while other matrix work is queued or running; job logs were unavailable and only annotations plus an execution-log artifact were recoverable.",
+    "balajirajput96/codex PR50 runs 32537583848 and 32537590528 were queued at capture time; no rerun, cancellation, or source change was attempted.",
+    "Historical vscode-live-server-plus-plus PR47 run 32259221962 failed without logs, but its current head check is successful; it was treated as stale evidence and not repaired.",
+    "GitHub branch objects report B/main and vscode-live-server-plus-plus/master as protected, while the protection subresource returned HTTP 404; no protection or authentication settings were changed.",
+    "The sandbox has no rustc or cargo, so PR48 local Rust validation could not run; no claim of local test validation is made."
+  ]
+}

@@ -1,0 +1,109 @@
+[1;37mdiff --git a/.github/workflows/bazel.yml b/.github/workflows/bazel.yml[m
+[1;37mindex aec2743996e3..ccdaa2ff4c91 100644[m
+[1;37m--- a/.github/workflows/bazel.yml[m
+[1;37m+++ b/.github/workflows/bazel.yml[m
+@@ -20,9 +20,9 @@ jobs:
+     # signal without putting PR latency back on the critical path. When
+     # Code-mode unit tests run on every Bazel target. When authenticated RBE
+     # is available, the Windows-cross shards exercise the source-built V8 path.
+[31m-    # Public forks run without upstream RBE credentials; retain the full test[m
+[31m-    # matrix but allow cold Bazel builds enough time to complete.[m
+[31m-    timeout-minutes: 120[m
+[32m+    # Public forks run without upstream RBE credentials; cold Linux Bazel[m
+[32m+    # graphs have empirically exceeded the former 120-minute limit.[m
+[32m+    timeout-minutes: 180[m
+     strategy:
+       fail-fast: false
+       matrix:
+@@ -341,8 +341,9 @@ jobs:
+
+   clippy:
+     # Keep full cross-platform lint coverage even when public-fork Bazel caches
+[31m-    # are cold and upstream RBE credentials are unavailable.[m
+[31m-    timeout-minutes: 120[m
+[32m+    # are cold and upstream RBE credentials are unavailable. Cold Linux[m
+[32m+    # clippy runs have empirically exceeded the former 120-minute limit.[m
+[32m+    timeout-minutes: 180[m
+     strategy:
+       fail-fast: false
+       matrix:
+@@ -440,8 +441,8 @@ jobs:
+
+   verify-release-build:
+     # Release-mode coverage compiles uncached target graphs in public forks;
+[31m-    # increase time rather than cancelling the verification.[m
+[31m-    timeout-minutes: 120[m
+[32m+    # give cold Linux graphs the same bounded 180-minute budget as test/lint.[m
+[32m+    timeout-minutes: 180[m
+     strategy:
+       fail-fast: false
+       matrix:
+[1;37mdiff --git a/codex-rs/core/src/session/tests/guardian_tests.rs b/codex-rs/core/src/session/tests/guardian_tests.rs[m
+[1;37mindex 67133adb8681..cc5da66952fc 100644[m
+[1;37m--- a/codex-rs/core/src/session/tests/guardian_tests.rs[m
+[1;37m+++ b/codex-rs/core/src/session/tests/guardian_tests.rs[m
+@@ -507,6 +507,14 @@ async fn strict_auto_review_turn_grant_forces_guardian_for_shell_command_policy_
+     #[allow(deprecated)]
+     let workdir = Some(turn_context.cwd.to_string_lossy().to_string());
+     let step_context = StepContext::for_test(Arc::clone(&turn_context));
+[32m+    // The GNU Windows test runtime can need more than one second to launch a[m
+[32m+    // shell process under its MSVC execution host. This test verifies guardian[m
+[32m+    // policy behavior, not command timeout handling.[m
+[32m+    let timeout_ms = if cfg!(all(target_os = "windows", target_env = "gnu")) {[m
+[32m+        5_000_u64[m
+[32m+    } else {[m
+[32m+        1_000_u64[m
+[32m+    };[m
+     let resp = handler
+         .handle(ToolInvocation {
+             session: Arc::clone(&session),
+@@ -522,7 +530,7 @@ async fn strict_auto_review_turn_grant_forces_guardian_for_shell_command_policy_
+                     "command": "echo hi",
+                     "login": false,
+                     "workdir": workdir,
+[31m-                    "timeout_ms": 1_000_u64,[m
+[32m+                    "timeout_ms": timeout_ms,[m
+                 })
+                 .to_string(),
+             },
+[1;37mdiff --git a/codex-rs/http-client/src/route_aware_redirect_integration_tests.rs b/codex-rs/http-client/src/route_aware_redirect_integration_tests.rs[m
+[1;37mindex 91119ca08c32..1ee34a28b148 100644[m
+[1;37m--- a/codex-rs/http-client/src/route_aware_redirect_integration_tests.rs[m
+[1;37m+++ b/codex-rs/http-client/src/route_aware_redirect_integration_tests.rs[m
+@@ -113,14 +113,29 @@ fn spawn_response(
+ fn read_http_headers(stream: &mut impl Read) -> String {
+     let mut buffer = Vec::new();
+     let mut chunk = [0_u8; 1024];
+[32m+    let deadline = Instant::now() + Duration::from_secs(2);[m
+     loop {
+[31m-        let bytes_read = stream.read(&mut chunk).expect("HTTP headers should read");[m
+[31m-        if bytes_read == 0 {[m
+[31m-            break;[m
+[31m-        }[m
+[31m-        buffer.extend_from_slice(&chunk[..bytes_read]);[m
+[31m-        if buffer.windows(4).any(|window| window == b"\r\n\r\n") {[m
+[31m-            break;[m
+[32m+        match stream.read(&mut chunk) {[m
+[32m+            Ok(0) => break,[m
+[32m+            Ok(bytes_read) => {[m
+[32m+                buffer.extend_from_slice(&chunk[..bytes_read]);[m
+[32m+                if buffer.windows(4).any(|window| window == b"\r\n\r\n") {[m
+[32m+                    break;[m
+[32m+                }[m
+[32m+            }[m
+[32m+            // On Windows, an accepted socket inherited from a nonblocking[m
+[32m+            // listener can report WouldBlock before the client sends headers.[m
+[32m+            // Treat it like the configured read timeout and retry briefly.[m
+[32m+            Err(error)[m
+[32m+                if matches!([m
+[32m+                    error.kind(),[m
+[32m+                    io::ErrorKind::WouldBlock | io::ErrorKind::TimedOut[m
+[32m+                ) =>[m
+[32m+            {[m
+[32m+                assert!(Instant::now() < deadline, "HTTP headers timed out: {error}");[m
+[32m+                std::thread::sleep(Duration::from_millis(10));[m
+[32m+            }[m
+[32m+            Err(error) => panic!("HTTP headers should read: {error}"),[m
+         }
+     }
+     String::from_utf8_lossy(&buffer).into_owned()

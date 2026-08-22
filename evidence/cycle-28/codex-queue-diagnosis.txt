@@ -1,0 +1,963 @@
+### /home/ubuntu/mission-cycle-2400/evidence/current/codex/pr-48-run-32514116660.json
+{
+  "name": "cla",
+  "status": "completed",
+  "conclusion": "skipped",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+### /home/ubuntu/mission-cycle-2400/evidence/current/codex/pr-48-run-32514117975.json
+{
+  "name": "metadata",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Build ${{ matrix.variant }} ${{ matrix.target }}",
+  "status": "completed",
+  "conclusion": "skipped",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Build ptrcomp-sandbox ${{ matrix.target }} from source",
+  "status": "completed",
+  "conclusion": "skipped",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+### /home/ubuntu/mission-cycle-2400/evidence/current/codex/pr-48-run-32514118221.json
+{
+  "name": "Codespell / Check for spelling errors",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "sdk / python-sdk",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "cargo-deny / cargo-deny",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Blob size policy / Blob size policy",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "repo-checks / build-test",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "rust-ci / Detect changed areas",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "sdk / sdks",
+  "status": "completed",
+  "conclusion": "cancelled",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on macos-latest for x86_64-apple-darwin",
+  "status": "completed",
+  "conclusion": "failure",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-gnu",
+  "status": "completed",
+  "conclusion": "cancelled",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 1/4",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 2/4",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-musl",
+  "status": "completed",
+  "conclusion": "cancelled",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on macos-latest for aarch64-apple-darwin",
+  "status": "queued",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on windows-latest for x86_64-pc-windows-msvc (native main)",
+  "status": "completed",
+  "conclusion": "skipped",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 3/4",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel clippy on ubuntu-24.04 for x86_64-unknown-linux-gnu",
+  "status": "completed",
+  "conclusion": "cancelled",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 4/4",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Verify release build on macos-latest for aarch64-apple-darwin",
+  "status": "in_progress",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Verify release build on ubuntu-24.04 for x86_64-unknown-linux-gnu",
+  "status": "completed",
+  "conclusion": "cancelled",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel clippy on windows-latest for x86_64-pc-windows-gnullvm",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel clippy on macos-latest for aarch64-apple-darwin",
+  "status": "queued",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Verify release build on windows-latest for x86_64-pc-windows-gnullvm",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "rust-ci / cargo shear",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "rust-ci / Format / etc",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "rust-ci / Argument comment lint - Linux",
+  "status": "completed",
+  "conclusion": "cancelled",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "rust-ci / Argument comment lint - macOS",
+  "status": "queued",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "rust-ci / Argument comment lint - Windows",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "rust-ci / Argument comment lint package",
+  "status": "completed",
+  "conclusion": "skipped",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+### /home/ubuntu/mission-cycle-2400/evidence/current/codex/pr-50-run-32537583582.json
+{
+  "name": "cla",
+  "status": "completed",
+  "conclusion": "skipped",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+### /home/ubuntu/mission-cycle-2400/evidence/current/codex/pr-50-run-32537583616.json
+{
+  "name": "metadata",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Build ptrcomp-sandbox ${{ matrix.target }} from source",
+  "status": "completed",
+  "conclusion": "skipped",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Build ${{ matrix.variant }} ${{ matrix.target }}",
+  "status": "completed",
+  "conclusion": "skipped",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+### /home/ubuntu/mission-cycle-2400/evidence/current/codex/pr-50-run-32537583848.json
+{
+  "name": "cargo-deny / cargo-deny",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "sdk / python-sdk",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Verify release build on ubuntu-24.04 for x86_64-unknown-linux-gnu",
+  "status": "in_progress",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Blob size policy / Blob size policy",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 4/4",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Verify release build on macos-latest for aarch64-apple-darwin",
+  "status": "queued",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel clippy on ubuntu-24.04 for x86_64-unknown-linux-gnu",
+  "status": "in_progress",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "repo-checks / build-test",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel clippy on windows-latest for x86_64-pc-windows-gnullvm",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "rust-ci / Detect changed areas",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 3/4",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 1/4",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm shard 2/4",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Verify release build on windows-latest for x86_64-pc-windows-gnullvm",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Codespell / Check for spelling errors",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on macos-latest for x86_64-apple-darwin",
+  "status": "queued",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "sdk / sdks",
+  "status": "in_progress",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on macos-latest for aarch64-apple-darwin",
+  "status": "queued",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-gnu",
+  "status": "in_progress",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on ubuntu-24.04 for x86_64-unknown-linux-musl",
+  "status": "in_progress",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel clippy on macos-latest for aarch64-apple-darwin",
+  "status": "queued",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on windows-latest for x86_64-pc-windows-msvc (native main)",
+  "status": "completed",
+  "conclusion": "skipped",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "rust-ci / Format / etc",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "rust-ci / Argument comment lint - Windows",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "rust-ci / Argument comment lint - macOS",
+  "status": "queued",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "rust-ci / cargo shear",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "rust-ci / Argument comment lint - Linux",
+  "status": "in_progress",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "rust-ci / Argument comment lint package",
+  "status": "completed",
+  "conclusion": "skipped",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Bazel / Bazel test on windows-latest for x86_64-pc-windows-gnullvm",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+### /home/ubuntu/mission-cycle-2400/evidence/current/codex/pr-50-run-32537590528.json
+{
+  "name": "Argument comment lint package",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Argument comment lint - macOS",
+  "status": "queued",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Argument comment lint - Linux",
+  "status": "completed",
+  "conclusion": "cancelled",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Lint/Build — windows-latest - x86_64-pc-windows-msvc",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Format / etc",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "cargo shear",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Argument comment lint - Windows",
+  "status": "completed",
+  "conclusion": "cancelled",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Tests — macos-latest - aarch64-apple-darwin / Build nextest archive",
+  "status": "queued",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Lint/Build — ubuntu-24.04 - x86_64-unknown-linux-gnu",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Tests — ubuntu-24.04-arm - aarch64-unknown-linux-gnu / Build nextest archive",
+  "status": "completed",
+  "conclusion": "failure",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Tests — ubuntu-24.04 - x86_64-unknown-linux-gnu (remote) / Build nextest archive",
+  "status": "completed",
+  "conclusion": "cancelled",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Lint/Build — ubuntu-24.04-arm - aarch64-unknown-linux-musl",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Tests — windows-arm64 - aarch64-pc-windows-msvc / Build nextest archive",
+  "status": "queued",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Tests — windows-x64 - x86_64-pc-windows-msvc / Build nextest archive",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Lint/Build — ubuntu-24.04 - x86_64-unknown-linux-musl",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Lint/Build — macos-latest - x86_64-apple-darwin",
+  "status": "queued",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Lint/Build — ubuntu-24.04-arm - aarch64-unknown-linux-musl (release)",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Lint/Build — ubuntu-24.04 - x86_64-unknown-linux-musl (release)",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Lint/Build — macos-latest - aarch64-apple-darwin (release)",
+  "status": "queued",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Lint/Build — windows-11-arm - aarch64-pc-windows-msvc (release)",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Lint/Build — windows-11-arm - aarch64-pc-windows-msvc",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Lint/Build — ubuntu-24.04-arm - aarch64-unknown-linux-gnu",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Lint/Build — windows-latest - x86_64-pc-windows-msvc (release)",
+  "status": "completed",
+  "conclusion": "success",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Lint/Build — macos-latest - aarch64-apple-darwin",
+  "status": "queued",
+  "conclusion": "",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Tests — ubuntu-24.04-arm - aarch64-unknown-linux-gnu / Platform result",
+  "status": "completed",
+  "conclusion": "failure",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Tests — ubuntu-24.04-arm - aarch64-unknown-linux-gnu / Tests shard ${{ matrix.shard }}/4",
+  "status": "completed",
+  "conclusion": "skipped",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Tests — windows-x64 - x86_64-pc-windows-msvc / Tests shard 1/4",
+  "status": "completed",
+  "conclusion": "failure",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Tests — windows-x64 - x86_64-pc-windows-msvc / Tests shard 3/4",
+  "status": "completed",
+  "conclusion": "failure",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Tests — windows-x64 - x86_64-pc-windows-msvc / Tests shard 4/4",
+  "status": "completed",
+  "conclusion": "failure",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Tests — windows-x64 - x86_64-pc-windows-msvc / Tests shard 2/4",
+  "status": "completed",
+  "conclusion": "failure",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Tests — windows-x64 - x86_64-pc-windows-msvc / Platform result",
+  "status": "completed",
+  "conclusion": "failure",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Tests — ubuntu-24.04 - x86_64-unknown-linux-gnu (remote) / Platform result",
+  "status": "completed",
+  "conclusion": "failure",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+{
+  "name": "Tests — ubuntu-24.04 - x86_64-unknown-linux-gnu (remote) / Tests shard ${{ matrix.shard }}/4",
+  "status": "completed",
+  "conclusion": "skipped",
+  "started_at": null,
+  "completed_at": null,
+  "runner_name": null,
+  "runner_group_name": null
+}
+== PR50 metadata ==
+{
+  "number": 50,
+  "title": "test(core): allow Windows shell startup latency",
+  "state": "open",
+  "draft": false,
+  "mergeable": true,
+  "mergeable_state": "unstable",
+  "base": "main",
+  "head": "fix/windows-guardian-test-timeout",
+  "head_sha": "50e2ecdee9a618a1ac1cdb26d40399def8adff50",
+  "base_sha": "a6db2781757ad718be377544b63570abdc06fd41",
+  "changed_files": 1,
+  "commits": 1,
+  "labels": [
+    {
+      "id": 10128598200,
+      "node_id": "LA_kwDOPac5tM8AAAACW7YkuA",
+      "url": "https://api.github.com/repos/balajirajput96/codex/labels/size/XS",
+      "name": "size/XS",
+      "color": "3CBF00",
+      "default": false,
+      "description": null
+    }
+  ],
+  "comments": 2,
+  "review_comments": 0,
+  "author_association": "OWNER"
+}
+== PR48 metadata ==
+{
+  "number": 48,
+  "title": "test(windows): retry nonblocking redirect socket reads",
+  "state": "open",
+  "draft": true,
+  "mergeable": true,
+  "mergeable_state": "unstable",
+  "base": "main",
+  "head": "fix/native-msvc-v8-allocator-link",
+  "head_sha": "1f1367fae740429b155f49c9fd81f2720f8c359a",
+  "base_sha": "4fe0ae55649903f42a60912746222c123a790e93",
+  "changed_files": 3,
+  "commits": 4,
+  "labels": [
+    {
+      "id": 11861082930,
+      "node_id": "LA_kwDOPac5tM8AAAACwvnDMg",
+      "url": "https://api.github.com/repos/balajirajput96/codex/labels/size/M",
+      "name": "size/M",
+      "color": "7F7203",
+      "default": false,
+      "description": null
+    }
+  ],
+  "comments": 5,
+  "review_comments": 0,
+  "author_association": "OWNER"
+}
+== changed files ==
+PR50
+codex-rs/core/src/session/tests/guardian_tests.rs
+PR48
+.github/workflows/bazel.yml
+codex-rs/core/src/session/tests/guardian_tests.rs
+codex-rs/http-client/src/route_aware_redirect_integration_tests.rs

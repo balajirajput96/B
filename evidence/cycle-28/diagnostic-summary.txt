@@ -1,0 +1,148 @@
+== B workflow runs ==
+32537530586	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T23:37:24Z	2026-08-21T23:37:37Z	https://github.com/balajirajput96/B/actions/runs/32537530586
+32533958441	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T22:40:53Z	2026-08-21T22:41:05Z	https://github.com/balajirajput96/B/actions/runs/32533958441
+32529350786	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T21:37:14Z	2026-08-21T21:56:51Z	https://github.com/balajirajput96/B/actions/runs/32529350786
+32524754353	Bounded repository workflow health	schedule	completed	cancelled	main	2026-08-21T20:40:27Z	2026-08-21T21:37:16Z	https://github.com/balajirajput96/B/actions/runs/32524754353
+32524464970	Bounded repository workflow health	workflow_dispatch	completed	success	main	2026-08-21T20:37:00Z	2026-08-21T21:48:33Z	https://github.com/balajirajput96/B/actions/runs/32524464970
+32519311639	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T19:36:12Z	2026-08-21T19:36:25Z	https://github.com/balajirajput96/B/actions/runs/32519311639
+32515823795	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T18:55:38Z	2026-08-21T18:58:29Z	https://github.com/balajirajput96/B/actions/runs/32515823795
+32509693898	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T17:44:09Z	2026-08-21T17:44:22Z	https://github.com/balajirajput96/B/actions/runs/32509693898
+32505015137	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T16:50:30Z	2026-08-21T17:16:20Z	https://github.com/balajirajput96/B/actions/runs/32505015137
+32499549876	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T15:47:57Z	2026-08-21T16:18:20Z	https://github.com/balajirajput96/B/actions/runs/32499549876
+32494551730	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T14:52:58Z	2026-08-21T14:56:28Z	https://github.com/balajirajput96/B/actions/runs/32494551730
+32489577704	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T13:57:30Z	2026-08-21T14:10:04Z	https://github.com/balajirajput96/B/actions/runs/32489577704
+32485476487	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T13:10:29Z	2026-08-21T13:42:34Z	https://github.com/balajirajput96/B/actions/runs/32485476487
+32478307343	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T11:40:46Z	2026-08-21T11:41:00Z	https://github.com/balajirajput96/B/actions/runs/32478307343
+32474190439	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T10:46:53Z	2026-08-21T10:47:05Z	https://github.com/balajirajput96/B/actions/runs/32474190439
+32469880810	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T09:51:31Z	2026-08-21T09:51:43Z	https://github.com/balajirajput96/B/actions/runs/32469880810
+32465578888	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T08:57:27Z	2026-08-21T08:57:39Z	https://github.com/balajirajput96/B/actions/runs/32465578888
+32460838543	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T07:56:05Z	2026-08-21T07:56:17Z	https://github.com/balajirajput96/B/actions/runs/32460838543
+32457243606	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T07:07:14Z	2026-08-21T07:07:31Z	https://github.com/balajirajput96/B/actions/runs/32457243606
+32451878746	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T05:47:51Z	2026-08-21T05:48:04Z	https://github.com/balajirajput96/B/actions/runs/32451878746
+32448559277	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T04:53:48Z	2026-08-21T04:54:01Z	https://github.com/balajirajput96/B/actions/runs/32448559277
+32445551846	Bounded repository workflow health	schedule	completed	success	main	2026-08-21T04:03:19Z	2026-08-21T04:03:30Z	https://github.com/balajirajput96/B/actions/runs/32445551846
+32443687151	Bounded repository workflow health	workflow_dispatch	completed	success	main	2026-08-21T03:31:33Z	2026-08-21T03:31:49Z	https://github.com/balajirajput96/B/actions/runs/32443687151
+32443682063	Automation package check	push	completed	success	main	2026-08-21T03:31:28Z	2026-08-21T03:31:39Z	https://github.com/balajirajput96/B/actions/runs/32443682063
+32443681997	Static site check	push	completed	success	main	2026-08-21T03:31:28Z	2026-08-21T03:31:37Z	https://github.com/balajirajput96/B/actions/runs/32443681997
+32443626875	Automation package check	pull_request	completed	success	ci/allow-manual-cycle-evidence-verification	2026-08-21T03:30:31Z	2026-08-21T03:30:39Z	https://github.com/balajirajput96/B/actions/runs/32443626875
+32443626866	Static site check	pull_request	completed	success	ci/allow-manual-cycle-evidence-verification	2026-08-21T03:30:31Z	2026-08-21T03:30:41Z	https://github.com/balajirajput96/B/actions/runs/32443626866
+32443556643	Static site check	push	completed	success	main	2026-08-21T03:29:22Z	2026-08-21T03:29:31Z	https://github.com/balajirajput96/B/actions/runs/32443556643
+32443556599	Automation package check	push	completed	success	main	2026-08-21T03:29:22Z	2026-08-21T03:29:30Z	https://github.com/balajirajput96/B/actions/runs/32443556599
+32443479482	Static site check	pull_request	completed	success	ci/persist-maintenance-cycle-evidence	2026-08-21T03:28:00Z	2026-08-21T03:28:09Z	https://github.com/balajirajput96/B/actions/runs/32443479482
+== vscode workflow runs ==
+32259363033	Notify n8n on push	pull_request	completed	success	copilot/fix-f8753240-e37b-4706-abb9-8e53c3b787e0	2026-08-19T13:39:45Z	2026-08-19T13:43:03Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32259363033
+32259221962	.github/workflows/notify.yml	push	completed	failure	copilot/fix-f8753240-e37b-4706-abb9-8e53c3b787e0	2026-08-19T13:38:15Z	2026-08-19T13:38:15Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32259221962
+32233095116	Career Automation System CI/CD	pull_request	completed	success	copilot/fix-11fd2b53-8abe-48f6-9325-e53168ed7c8e	2026-08-19T08:32:20Z	2026-08-19T09:00:18Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32233095116
+32233088735	Career Automation System CI/CD	pull_request	completed	success	copilot/fix-a34ad888-0c4d-43ed-bf55-02da6b37cc60	2026-08-19T08:32:16Z	2026-08-19T09:14:12Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32233088735
+32233074814	Career Automation System CI/CD	pull_request	completed	success	copilot/fix-0abaf8f4-bf00-4811-b7cf-d2ad8e13c935	2026-08-19T08:32:06Z	2026-08-19T09:18:04Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32233074814
+32232645652	Extension CI	pull_request	completed	success	agent/stabilize-extension-ci	2026-08-19T08:26:52Z	2026-08-19T08:58:15Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32232645652
+32232297056	AI Career Automation Workflow	workflow_dispatch	completed	success	copilot/fix-cd7e4241-7b1c-4e88-8bfd-0b270786520c	2026-08-19T08:22:32Z	2026-08-19T09:37:48Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32232297056
+32231288216	Deploy Node.js project to Azure Function App	workflow_dispatch	completed	success	master	2026-08-19T08:10:10Z	2026-08-19T08:27:07Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32231288216
+32193981520	pip in /ml-deployment-platform for python-multipart, python-multipart, python-multipart, python-multipart, python-multipart, python-multipart, python-multipart - Update #1531610197	dynamic	completed	success	master	2026-08-18T22:43:02Z	2026-08-18T22:43:57Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32193981520
+32177355222	Notify n8n on push	pull_request	completed	success	copilot/fix-f8753240-e37b-4706-abb9-8e53c3b787e0	2026-08-18T19:34:19Z	2026-08-18T19:50:46Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32177355222
+32177060514	Career Automation System CI/CD	pull_request	completed	success	copilot/fix-13aec358-8c8a-498c-9964-eb4c8ac0dd64	2026-08-18T19:31:15Z	2026-08-18T19:33:23Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32177060514
+32166971579	Deploy to GitHub Pages	push	completed	success	master	2026-08-18T17:41:49Z	2026-08-18T17:43:30Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32166971579
+32166971008	Graph Update: pip in /ml-deployment-platform #1531240169	dynamic	completed	success	master	2026-08-18T17:41:49Z	2026-08-18T17:43:05Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32166971008
+32166970633	Notify n8n on Push	push	completed	success	master	2026-08-18T17:41:48Z	2026-08-18T17:42:02Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32166970633
+32166965157	pages build and deployment	dynamic	completed	success	master	2026-08-18T17:41:45Z	2026-08-18T17:47:24Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32166965157
+32165883331	Deploy to GitHub Pages	push	completed	success	master	2026-08-18T17:29:36Z	2026-08-18T17:37:55Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32165883331
+32165883329	Career Automation System CI/CD	push	completed	success	master	2026-08-18T17:29:36Z	2026-08-18T17:30:27Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32165883329
+32165883313	Notify n8n on Push	push	completed	success	master	2026-08-18T17:29:36Z	2026-08-18T17:38:50Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32165883313
+32165882198	pages build and deployment	dynamic	completed	success	master	2026-08-18T17:29:35Z	2026-08-18T17:40:20Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32165882198
+32165761681	Career Automation System CI/CD	pull_request	completed	success	copilot/fix-f6676322-032d-4212-af75-be9ca4c6093c	2026-08-18T17:28:11Z	2026-08-18T17:29:18Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32165761681
+32165620324	Career Automation System CI/CD	pull_request	completed	success	copilot/fix-f6676322-032d-4212-af75-be9ca4c6093c	2026-08-18T17:26:33Z	2026-08-18T17:27:43Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32165620324
+32165186085	Deploy to GitHub Pages	push	completed	success	master	2026-08-18T17:21:41Z	2026-08-18T17:22:09Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32165186085
+32165186070	Notify n8n on Push	push	completed	success	master	2026-08-18T17:21:41Z	2026-08-18T17:21:54Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32165186070
+32165185185	pages build and deployment	dynamic	completed	success	master	2026-08-18T17:21:41Z	2026-08-18T17:22:25Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32165185185
+32164921323	Notify n8n on Push	push	completed	success	master	2026-08-18T17:18:38Z	2026-08-18T17:18:49Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32164921323
+32164921245	Deploy to GitHub Pages	push	completed	success	master	2026-08-18T17:18:38Z	2026-08-18T17:19:02Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32164921245
+32164920254	pages build and deployment	dynamic	completed	success	master	2026-08-18T17:18:37Z	2026-08-18T17:19:23Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32164920254
+32163610943	Career Automation System CI/CD	pull_request	completed	success	copilot/fix-f6676322-032d-4212-af75-be9ca4c6093c	2026-08-18T17:03:50Z	2026-08-18T17:12:42Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32163610943
+32163334538	Career Automation System CI/CD	pull_request	completed	success	copilot/fix-f6676322-032d-4212-af75-be9ca4c6093c	2026-08-18T17:00:42Z	2026-08-18T17:10:35Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32163334538
+32131572241	Career Automation System CI/CD	pull_request	completed	success	copilot/fix-f6676322-032d-4212-af75-be9ca4c6093c	2026-08-18T11:24:33Z	2026-08-18T11:25:02Z	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32131572241
+== PR47 check runs ==
+96088639887	ping	completed	success	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32259363033/job/96088639887	2026-08-19T13:42:58Z	2026-08-19T13:43:02Z
+== PR119 check runs ==
+96005622187	build-and-test	completed	success	https://github.com/balajirajput96/vscode-live-server-plus-plus/actions/runs/32232645652/job/96005622187	2026-08-19T08:57:43Z	2026-08-19T08:58:13Z
+== PR47 metadata ==
+{
+  "number": 47,
+  "title": "Implement complete automation setup: n8n workflows, GitHub Actions, health monitoring, and security framework",
+  "state": "open",
+  "draft": false,
+  "mergeable": true,
+  "mergeable_state": "blocked",
+  "base": "master",
+  "head": "copilot/fix-f8753240-e37b-4706-abb9-8e53c3b787e0",
+  "head_sha": "ef6cc9ebf6f9528350d4938ebe6637999e24f1b0",
+  "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+  "changed_files": 13,
+  "commits": 2,
+  "requested_reviewers": [],
+  "requested_teams": [],
+  "labels": [
+    {
+      "id": 10131410704,
+      "node_id": "LA_kwDOPSi_o88AAAACW-EPEA",
+      "url": "https://api.github.com/repos/balajirajput96/vscode-live-server-plus-plus/labels/size/XXL",
+      "name": "size/XXL",
+      "color": "E50009",
+      "default": false,
+      "description": null
+    }
+  ],
+  "review_comments": 0,
+  "comments": 8,
+  "author_association": "NONE"
+}
+== PR119 metadata ==
+{
+  "number": 119,
+  "title": "ci: add headless extension build and test workflow",
+  "state": "open",
+  "draft": false,
+  "mergeable": true,
+  "mergeable_state": "blocked",
+  "base": "master",
+  "head": "agent/stabilize-extension-ci",
+  "head_sha": "741cb1ecf2cc70cabb5edeb44b94ed71f377e6e0",
+  "base_sha": "97628eeb70e45beb56f7ba5245e48a1f08518b25",
+  "changed_files": 1,
+  "commits": 1,
+  "requested_reviewers": [],
+  "requested_teams": [],
+  "labels": [
+    {
+      "id": 10131287767,
+      "node_id": "LA_kwDOPSi_o88AAAACW98u1w",
+      "url": "https://api.github.com/repos/balajirajput96/vscode-live-server-plus-plus/labels/size/M",
+      "name": "size/M",
+      "color": "7F7203",
+      "default": false,
+      "description": null
+    }
+  ],
+  "review_comments": 0,
+  "comments": 2,
+  "author_association": "OWNER"
+}
+== review counts ==
+PR47 reviews=6
+PR119 reviews=1
+== changed paths ==
+PR47 files:
+.env.example
+.github/workflows/notify.yml
+AUTOMATION-SETUP.md
+AUTOMATION_SETUP_GUIDE.md
+README.md
+SETUP_SUMMARY.md
+automation-status.json
+docs/GOOGLE_PLAY_SETUP_GUIDE.md
+docs/SECURITY_GUIDE.md
+docs/browser-optimization/devtools-optimization-guide.md
+scripts/health-checks/openai-health-check.sh
+scripts/health-checks/webhook-health-check.sh
+scripts/status-tracker.sh
+PR119 files:
+.github/workflows/extension-ci.yml
