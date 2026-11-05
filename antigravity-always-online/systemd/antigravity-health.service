@@ -1,0 +1,11 @@
+[Unit]
+Description=Antigravity Health Check Service
+
+[Service]
+Type=oneshot
+# Path to the healthcheck script (assumes the repo is cloned in the home directory or executed appropriately)
+# We use %h which resolves to the user's home directory. Note: Users should ideally place the script in a known location,
+# but for the context of this script, we assume the installer or user places it in the right directory.
+# Let's specify that the health check script should be in the user's home or repository path.
+# Assuming the user cloned the repository to ~/antigravity-always-online
+ExecStart=/usr/bin/env bash %h/antigravity-always-online/healthcheck.sh
